@@ -1,0 +1,18 @@
+= PdfRenderer
+
+This gem allows to create a pdf render from the controller using prawn.
+
+= Usage 
+
+  respond_to do |format|
+    format.html
+    format.pdf {:pdf => "contents"}
+  end
+
+
+= Notice
+
+Test on Rails 3.x and ruby 1.9.x
+
+
+This project rocks and uses MIT-LICENSE.
